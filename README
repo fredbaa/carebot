@@ -13,7 +13,7 @@ How to start:
     ** port (defaults to 6667 if left blank)
     ** use_ssl (defaults to false if left blank)
 
-<b>Commands</b>
+Commands
 
 General Searches (source Google):
   !g <query>
@@ -52,10 +52,12 @@ Countoff Utility:
 
   commands only for the bot starter:
   !update_countoff_info # information about what the countoff is about
-  !add_count <count>-<nick>@ip
-                        # manually add user with specified count number, user nick and IP
+  !add_count <count>-<nick>@<ip>
+                        # manually add user with
+                        # specified count number, user nick and IP
   !count_reset          # resets count and countoff info
   !remove_countoff_user # remove user in count
 
-Try also private messaging carebot, it integrates to Simsimi thus having a fun conversation
+Try also private messaging carebot,
+it integrates to Simsimi thus having a fun conversation
 (although sometimes it doesnt make any sense) :)
