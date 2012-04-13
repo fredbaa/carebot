@@ -5,14 +5,15 @@ A bot that cares.
 How to start:
   * just run: ruby carebot.rb
   * enter irc details:
-  ** irc server
-  ** use your username (and password if applies)
-  ** provide a nick for carebot (defaults to carebot if left blank)
-  ** channels where carebot will join (comma separated, with/without # on channel name)
-  ** port (defaults to 6667 if left blank)
-  ** use_ssl (defaults to false if left blank)
+    ** irc server
+    ** use your username (and password if applies)
+    ** provide a nick for carebot (defaults to carebot if left blank)
+    ** channels where carebot will join
+       (comma separated, with/without # on channel name)
+    ** port (defaults to 6667 if left blank)
+    ** use_ssl (defaults to false if left blank)
 
-Commands
+<b>Commands</b>
 
 General Searches (source Google):
   !g <query>
@@ -42,7 +43,8 @@ Random Stuff
 What is this link
   !link_info <link url>
 
-  also, carebot post automatically the video information when posting links from youtube and vimeo on the channel.
+  also, carebot post automatically the video information when posting links
+  from youtube and vimeo on the channel.
 
 Countoff Utility:
   !count_info           # summarize the info including the counts and the people
@@ -50,8 +52,10 @@ Countoff Utility:
 
   commands only for the bot starter:
   !update_countoff_info # information about what the countoff is about
-  !add_count <count>-<nick>@ip # manually add user with specified count number, user nick and IP
+  !add_count <count>-<nick>@ip
+                        # manually add user with specified count number, user nick and IP
   !count_reset          # resets count and countoff info
   !remove_countoff_user # remove user in count
 
-Try also private messaging carebot, it integrates to Simsimi thus having a fun conversation (although sometimes in doesnt make any sense) :)
+Try also private messaging carebot, it integrates to Simsimi thus having a fun conversation
+(although sometimes it doesnt make any sense) :)
